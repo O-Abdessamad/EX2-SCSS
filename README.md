@@ -1,1 +1,1 @@
-# EX-2-SCSS
+# EX2-SCSS

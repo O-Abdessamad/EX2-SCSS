@@ -1,0 +1,264 @@
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #363b47;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav .logo {
+  font-size: 24px;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 50vw;
+  font-size: 0.8rem;
+}
+nav ul li {
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #9e9fa1;
+}
+nav ul li:hover {
+  background-color: #3676bb;
+}
+nav ul li:hover a {
+  color: white;
+}
+
+@media (max-width: 426px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    width: 80vw;
+    font-size: 0.65rem;
+  }
+}
+main {
+  background-color: #efeff1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main img {
+  padding: 0;
+  margin: 0;
+}
+
+.section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: gray;
+  width: 100%;
+  height: 40vh;
+  background-color: #e8e6e0;
+  font-size: 24px;
+}
+.section-1 .bg-blue {
+  background-color: #26a2cc;
+  color: white;
+}
+.section-1 .color-blue {
+  color: #26a2cc;
+  font-weight: bold;
+}
+.section-1 .last-prg {
+  margin-top: 20px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.3em;
+  width: 90vw;
+  height: 40vh;
+}
+.section-2 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e2e0e0;
+  width: 20vw;
+  height: 70%;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 50px;
+}
+.section-2 .card .iccone {
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+  color: #3678be;
+  font-size: 2rem;
+}
+.section-2 .card h3 {
+  margin: 5px 0;
+  color: gray;
+}
+.section-2 .card .text-blue {
+  color: #5da2cc;
+}
+.section-2 .card p {
+  color: #8e7e7e;
+  text-align: center;
+}
+
+.section-3 {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.section-3 .text {
+  width: 40%;
+  height: 100%;
+}
+.section-3 .text h3 {
+  margin-bottom: 10px;
+}
+.section-3 .text .prg1 {
+  color: #a9a9ba;
+  margin-bottom: 10px;
+}
+.section-3 .text .prg2 {
+  color: #7a7a7a;
+  margin-bottom: 20px;
+}
+.section-3 .text button {
+  background-color: #26a2cc;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px;
+}
+.section-3 .text button a {
+  color: white;
+  text-decoration: none;
+}
+.section-3 .mini-card {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.section-3 .mini-card .card1 {
+  text-align: center;
+  width: 15vw;
+  background-color: #38485f;
+  padding-bottom: 10px;
+}
+.section-3 .mini-card .card1 h3 {
+  color: white;
+  margin: 10px;
+}
+.section-3 .mini-card .card1 p {
+  color: #93968e;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.section-3 .mini-card .card1 img {
+  width: 100%;
+  height: 60%;
+}
+
+@media (max-width: 426px) {
+  .section-1 {
+    height: 30vh;
+    font-size: 18px;
+  }
+  .section-2 {
+    width: 100%;
+    height: 80vh;
+    gap: 1em;
+  }
+  .section-2 .card {
+    width: 150px;
+    height: 250px;
+    padding-bottom: 0px;
+  }
+  .section-2 .card p {
+    font-size: 0.7rem;
+  }
+  .section-3 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-3 .text {
+    width: 80%;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .section-3 .mini-card {
+    width: 80%;
+    flex-direction: column;
+    background-color: blue;
+  }
+  .section-3 .mini-card .card1 {
+    width: 100%;
+  }
+}
+.footer-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #3676bb;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #b0c5dc;
+  padding: 5px;
+}
+.footer-1 .titre {
+  font-size: 2rem;
+  margin: 1em;
+}
+.footer-1 .text {
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+.footer-1 .last-text {
+  margin-bottom: 2em;
+}
+.footer-1 ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 4em;
+}
+.footer-1 ul .iconne {
+  font-size: 2.4rem;
+  color: #b0c5dc;
+}
+
+.footer-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #363b47;
+  height: 5vh;
+  text-align: center;
+  color: #626c72;
+  font-size: smaller;
+}

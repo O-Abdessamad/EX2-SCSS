@@ -1,0 +1,44 @@
+.footer-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #3676bb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #b0c5dc;
+    padding: 5px;
+    .titre{
+        font-size: 2rem;
+        margin: 1em;
+    }
+    .text{
+        font-size: 1rem;
+        margin-bottom: 1em;
+    }
+    .last-text{
+        margin-bottom: 2em;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 4em;
+        .iconne{
+            font-size: 2.4rem;
+            color: #b0c5dc;
+        }
+    }   
+}
+.footer-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #363b47;
+    height: 5vh;
+    text-align: center;
+    color:#626c72;
+    font-size: smaller;
+}
